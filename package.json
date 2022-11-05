@@ -1,6 +1,6 @@
 {
-  "name": "passport-twitter",
-  "version": "1.0.4",
+  "name": "@passport-js/passport-twitter",
+  "version": "1.0.5",
   "description": "Twitter authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-twitter.git"
+    "url": "git://github.com/passportjs/passport-twitter.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-twitter/issues"
+    "url": "http://github.com/passportjs/passport-twitter/issues"
   },
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/jaredhanson"
+    "url": "https://github.com/sponsors/passportjs"
   },
   "license": "MIT",
   "licenses": [
@@ -35,14 +35,14 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-oauth1": "1.x.x",
-    "xtraverse": "0.1.x"
+    "@passport-js/xtraverse": "^0.1.2",
+    "passport-oauth1": "1.x.x"
   },
   "devDependencies": {
-    "make-node": "0.4.6",
-    "mocha": "2.x.x",
     "chai": "2.x.x",
-    "chai-passport-strategy": "1.x.x"
+    "chai-passport-strategy": "1.x.x",
+    "make-node": "0.4.6",
+    "mocha": "2.x.x"
   },
   "engines": {
     "node": ">= 0.4.0"
