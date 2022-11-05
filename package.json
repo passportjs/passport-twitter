@@ -1,6 +1,6 @@
 {
   "name": "@passport-js/passport-twitter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Twitter authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -39,10 +39,10 @@
     "passport-oauth1": "1.x.x"
   },
   "devDependencies": {
-    "chai": "2.x.x",
-    "chai-passport-strategy": "1.x.x",
+    "chai": "4.x.x",
+    "chai-passport-strategy": "3.x.x",
     "make-node": "0.4.6",
-    "mocha": "2.x.x"
+    "mocha": "10.x.x"
   },
   "engines": {
     "node": ">= 0.4.0"
