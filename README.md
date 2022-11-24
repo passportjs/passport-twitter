@@ -33,7 +33,7 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```bash
-$ npm install passport-twitter
+$ npm i @passport-js/passport-twitter
 ```
 
 ## Usage
