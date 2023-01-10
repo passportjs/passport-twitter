@@ -35,7 +35,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "@passport-js/xtraverse": "^0.1.2",
+    "@passport-js/xtraverse": "^0.1.3",
     "passport-oauth1": "1.x.x"
   },
   "devDependencies": {
