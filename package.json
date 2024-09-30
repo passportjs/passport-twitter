@@ -35,11 +35,11 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "@passport-js/xtraverse": "^0.1.3",
+    "@passport-js/xtraverse": "^0.1.4",
     "passport-oauth1": "1.x.x"
   },
   "devDependencies": {
-    "chai": "4.x.x",
+    "chai": "5.x.x",
     "chai-passport-strategy": "3.x.x",
     "make-node": "0.4.6",
     "mocha": "10.x.x"
